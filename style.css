@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    background-color: #fed4d2 ;
+    width: 35%;
+    margin: 48px auto;
+    border-radius: 4px ;
+    border: 5px solid white;
+}
+
+article div{
+    padding-bottom: 20px;
+}
+
+article label{
+    margin-left: 40px;
+    color: black;
+}
+
