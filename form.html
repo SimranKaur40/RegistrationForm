@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1><center><font size="7" color="ff3126">National Institute of Fashion Technology</font></center></h1>
+    
+
+    <br><br>
+
+    
+    <section>
+        <article>
+            <form action="" method="GET">
+                <div>
+                    <h2><center>Registration Form</center></h2>
+                </div>
+                <div>
+    
+                    <label for="fname">First Name<span style="color:red; font-size:20px;">*</span></label>
+            <input type="text" id="fname" placeholder="Enter Name" pattern="(?=.*[A-Z])(?=.*[a-z].{4,})" title="Minimum 4 characters" required>
+                </div>
+    
+                <div>
+                    <label for="lname">Last Name<span style="color:red; font-size:20px;">*</label>
+                    <input type="text" id="lname" placeholder="Enter Name" pattern="(?=.*[A-Z])(?=.*[a-z].{4,})" title="Minimum 4 characters" required>
+                </div>
+    
+                <div>
+                    <label for="email">Email<span style="color:red; font-size:20px;">*</label>
+                    <input type="email" id="email" placeholder="Enter email" pattern="[a-z],[0,9]+@[a-z]+\.[a-z]{2,}" required>
+                </div>
+    
+                <div>
+                    <label for="mobno">Mobile Number<span style="color:red; font-size:20px;">*</label>
+                    <input type="number" id="mobno" placeholder="Enter contact" min="10" pattern=[0,9] title="Length should be 10" required>
+                </div>
+    
+                <div>
+                    <label for="dob">Date Of Birth<span style="color:red; font-size:20px;">*</label>
+                    <input type="date" id="dob" placeholder="Enter date" pattern=[0,9],. required>
+    
+                </div>
+    
+                <div>
+                    <span>
+                        <input type="radio" type="male" value="gender" >
+                        <label for="male">Male</label>
+        
+                    </span>
+    
+                    <span>
+                        <input type="radio" type="fmale" value="gender" >
+                        <label for="fmale">Female</label>
+                    </span>
+    
+                </div>
+    
+                <div>
+                    <label for="gname">Father/Guardian's Name<span style="color:red; font-size:20px;">*</label>
+            <input type="text" id="gname" placeholder="Enter Name" pattern=[A,Z],[a,z] required>
+                </div>
+    
+                <div>
+                    <span>
+                        <input type="radio" type="ug" value="course" >
+                        <label for="ug">Undergraduate (UG)</label>
+        
+                    </span>
+    
+                    <span>
+                        <input type="radio" type="pg" value="course" >
+                        <label for="pg">Postgraduate (PG)</label>
+                    </span>
+    
+                </div>
+    
+                <input type="radio" id="check">
+                <label for="check">I hereby accept all terms and conditions.</label>
+    
+                <div>
+                    <button>SUBMIT</button>
+                </div>
+    
+            </form>
+
+        
+
+
+
+        </article>
+
+    </section>
+        
+    <img src="img/photo13.png">
+
+    
+</body>
